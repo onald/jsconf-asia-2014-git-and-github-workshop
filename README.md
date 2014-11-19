@@ -1,5 +1,5 @@
 
-Workshop exercises and outstanding student questions for JSConf Asia 2014.
+Workshop exercises and outstanding student questions for JSConf Asia 2013.
 
 * [Forking](fork.md)
 * [Branching](branch.md)
