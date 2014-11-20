@@ -20,7 +20,19 @@ git status
 
 Will show that the file is "untracked".
 
-#### 3. Add file to staging
+If you want to just see the short version of the git status, run this:
+```
+git status -s
+```
+
+#### 3. View the file differences
+```
+git diff
+```
+
+*Donal asks*: What will this show? Why?
+
+#### 4. Add file to staging
 ```
 git add student-questions/<your_github_username>-workshop-question.md
 ```
@@ -32,7 +44,15 @@ git status
 
 Will show that the file is "staged".
 
-#### 4. Commit your question file
+#### 5. View the file differences
+```
+git diff --staged
+```
+
+This will show you the patch view of the differences between the **staged**
+files and what was in the last commit.
+
+#### 6. Commit your question file
 ```
 git commit -m "add question file"
 ```
@@ -46,7 +66,7 @@ Will show that the file is "committed".
 
 *Donal says*: Your file has been committed but only to your local repository.
 
-#### 5. Push your question file to GitHub
+#### 7. Push your question file to GitHub
 ```
 git push origin <your_github_username>-asks-a-question
 ```
